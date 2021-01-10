@@ -19,7 +19,7 @@ class Migration1610022539 extends MigrationStep
         foreach ($sampleData as $sampleDataEntry) {
             $sampleDataEntry['id'] = Uuid::randomBytes();
             $sampleDataEntry['created_at'] = date('Y:m:d H:i:s', time());
-            $connection->insert('dealer_entity', $sampleDataEntry);
+            $connection->insert('dealer', $sampleDataEntry);
         }
     }
 
