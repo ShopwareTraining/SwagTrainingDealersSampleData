@@ -1,5 +1,5 @@
 {
-  "name": "shopware-training/dealers-sample-data",
+  "name": "swag-training/dealers-sample-data",
   "description": "Shopware 6 example dealers - Sample data",
   "type": "shopware-platform-plugin",
   "license": "MIT",
