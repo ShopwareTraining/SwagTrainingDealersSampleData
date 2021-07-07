@@ -1,15 +1,15 @@
 {
-  "name": "yireo/shopware6-example-dealers-sample-data",
+  "name": "shopware-training/dealers-sample-data",
   "description": "Shopware 6 example dealers - Sample data",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Yireo\\ExampleDealersSampleData\\": "src/"
+      "SwagTraining\\DealersSampleData\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "Yireo\\ExampleDealersSampleData\\YireoExampleDealersSampleData",
+    "shopware-plugin-class": "SwagTraining\\DealersSampleData\\SwagTrainingDealersSampleData",
     "label": {
       "en-GB": "Shopware 6 example dealers - Sample data"
     }
